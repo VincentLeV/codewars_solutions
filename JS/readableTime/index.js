@@ -22,4 +22,4 @@ const format = (val) => {
     }
 }
 
-console.log(humanReadable(60))
+console.log(humanReadable(3662))
