@@ -61,6 +61,7 @@ PaginationHelper.prototype.pageIndex = function(itemIndex) {
         if ( itemIndex < this.pageItemCount(i) ) {
             return i
         } else if ( itemIndex > this.pageItemCount(i) ) {
+            console.log()
             return i + 1
         }
     }
