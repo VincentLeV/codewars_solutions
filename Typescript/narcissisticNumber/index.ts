@@ -1,4 +1,4 @@
-const narcissistic = (value: number) => {
+const narcissistic = (value: number): boolean => {
     const result: number =  String(value)
         .split("")
         .map(n => Math.pow(parseInt(n), String(value).length))
